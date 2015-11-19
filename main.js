@@ -21,6 +21,14 @@ $( "#clickme2" ).click(function() {
   $( "#block2" ).fadeToggle( "slow" );
 });
     
+$( "#clickme2a" ).click(function() {
+ $( "article" ).addClass( "article2" );
+});
+
+$( "#clickme3a" ).click(function() {
+ $( "article" ).removeClass( "article2" );
+});
+    
 $( "#clickme3" ).click(function() {
   $( "#block3" ).animate({
      width: "0%",

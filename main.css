@@ -36,25 +36,46 @@
         border-radius: 25px;
         margin: 3px;
 	}
+
 	
 	#page {
-		width: 900px;
+		width: 1000px;
 		margin: 0px auto;
 		padding: 30px 0px;
 	}
 	
 	article {
 		float: right;
-		width: 600px;
+		width: 650px;
         background: white;
         opacity: 0.9;
         padding: 15px;
         border-radius: 10px;
 	}
     
+  .article2 {
+		float: right;
+		width: 600px;
+        background: #C2EBDD;
+        opacity: 0.8;
+        padding: 10px;
+        border-radius: 20px;
+	}
     #ani{
         color: white;
         text-decoration: underline;
+    }
+    #clickme2a, #clickme3a{
+        background: white;
+        display: block;
+        width:170px;
+        height:20px;
+        float: right;
+        opacity: 0.85;
+        border-radius: 10px;
+        margin:5px;
+        padding:5px;
+        text-align:center;
     }
 
     #log {
